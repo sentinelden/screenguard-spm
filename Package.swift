@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "ScreenGuardSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "ScreenGuardSDK", targets: ["ScreenGuardSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "ScreenGuardSDK",   // 3.0.0
-            url: "https://api.sentinelden.com/spm/screenguard_sdk/3.0.0/ScreenGuardSDK.xcframework.zip",
-            checksum: "820648f4934f1dadd7e78ecd14ab0fbd8c0418dac2212f734382cc0b77b078a1"
+            name: "ScreenGuardSDK",   // 4.0.0
+            url: "https://api.sentinelden.com/spm/screenguard_sdk/4.0.0/ScreenGuardSDK.xcframework.zip",
+            checksum: "024ee252ae3f1bdbd644cbbb8a2b4a9f13b272b3cfd231bbb4e36407b8bc9545"
         ),
     ]
 )
