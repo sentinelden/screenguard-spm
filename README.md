@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/screenguard-spm", from: "4.0.0"),
+    .package(url: "https://github.com/sentinelden/screenguard-spm", from: "4.0.1"),
 ],
 targets: [
     .target(name: "App", dependencies: [
