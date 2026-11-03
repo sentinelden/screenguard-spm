@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "ScreenGuardSDK",   // 4.0.1
-            url: "https://api.sentinelden.com/spm/screenguard_sdk/4.0.1/ScreenGuardSDK.xcframework.zip",
-            checksum: "a70cf999b6f4a6d12911aac74a5c0c75e3957c93333095ae643e3e4e7661d5fe"
+            name: "ScreenGuardSDK",   // 4.0.2
+            url: "https://api.sentinelden.com/spm/screenguard_sdk/4.0.2/ScreenGuardSDK.xcframework.zip",
+            checksum: "9d30994842de02ec2894d71ab796afa801f36a7e48494945e8c484015e649c35"
         ),
     ]
 )
